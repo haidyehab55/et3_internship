@@ -2,23 +2,28 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class ItemComponent extends StatelessWidget {
-  ItemComponent({required this.img, required this.colour});
-  final Image img;
-  final Color colour;
+  ItemComponent({required this.img});
+  final String img;
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      color: colour,
-      width: 250,
-      height: 300,
+    return SizedBox(
+      width: 150,
+      height: 350,
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
-          SizedBox(
+          Container(
             width: 200,
             height: 250,
-            child: img,
+            decoration:  BoxDecoration(
+              image: DecorationImage(
+                fit: BoxFit.fill,
+                image: AssetImage(
+                 img,
+                ),
+              ),
+            ),
           ),
           const Text(
             "Coffee",
