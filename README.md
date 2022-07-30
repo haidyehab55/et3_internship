@@ -1,16 +1,13 @@
 # internship_task
 
-A new Flutter project.
+A new Flutter project for coffeshop app.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+![home page](https://user-images.githubusercontent.com/68606147/181907839-096dafb4-a787-4655-9d94-4a8384712b0f.png)
+ 
+ this is the home page of the app I made it scrolable to help user enjoy the whole journey!
+ 
+ ![item_page](https://user-images.githubusercontent.com/68606147/181907890-7ba6567f-bad5-419f-b29f-02f1b1d51f27.png)
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+when the user chooses any product from the home page it displays here in the item page to show him/her details of this product
